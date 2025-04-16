@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".Developer">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDev"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+
+        android:background="@drawable/design_button"
+        app:cardElevation="6dp"   >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center_vertical"
+            android:paddingTop="33dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/design_button"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/professionalphoto"
+                android:contentDescription="@string/todo68"
+                 />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="40dp"
+                android:text="Krishnavallabh"
+                android:textColor="@color/colorTextHint"
+                android:textSize="30sp" />
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="Krishnavallabhpatidar0@gmail.com"
+        android:textColor="@color/colorTextHint"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

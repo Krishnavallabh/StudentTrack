@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/custom_style"
+    tools:context=".admission4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_five"
+            android:padding="5dp"
+            android:text="@string/ad29"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_five"
+            android:padding="5dp"
+            android:text="  Reception : 0755-6185300,0755-6185300/1/2/3/4/5
+            \n\n
+
+ Admission Cell : 7440777111, 7201800001, 0755-6185350, 0755-6685400"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/custom_five"
+            android:text="M.Tech Helpline"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/custom_five"
+            android:text="  Reception : 0755-6185300,0755-6185300/1/2/3/4/5
+            \n\n
+
+ Admission Cell : 7440777111, 7201800001, 0755-6185350, 0755-6685400"/>
+    </LinearLayout>
+
+</ScrollView>
